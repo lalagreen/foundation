@@ -1,0 +1,98 @@
+body {
+       background: #FFF;
+    }
+    .header {
+       overflow: hidden;
+       background: #FFF;
+       padding: 20px 10%;
+    }    
+    .fa {
+       text-align: center;
+       width: 20px; 
+    }
+    .fa-instagram {
+       background: #f09433; 
+       background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+       background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+       background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+    .navbar {
+       overflow: hidden;
+       padding: 10px 10%;
+    }
+    .navbar a {
+       display: block;
+       text-align: center;
+       padding: 15px 10px;
+       margin: 2px;
+    }
+    .slideshow-container {
+       overflow: hidden;
+       position: relative;
+       height: 400px;
+       background: #f9f9f9;
+       box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+       margin-left: -8px;
+       margin-right: -8px;
+    }
+    .img {
+       overflow: hidden;
+       position: relative;
+       margin-right: 12%;
+       margin-left: 135px;
+       height: 350px;
+       background: grey;
+    }
+    .mySlides {
+     
+    }
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    * The dots/bullets/indicators */
+    .dot {
+       cursor: pointer;
+       height: 15px;
+       width: 15px;
+       margin: 0 2px;
+       background: #ddd;
+       border-radius: 50%;
+       display: block;
+       transition: background-color 0.6s ease;
+    }
+    .col-md-10 {
+       float: right; 
+       text-decoration: none; 
+       margin-right: 20px; 
+       padding-top: 10px; 
+       padding-left: 5px; 
+       font-size: 16px;
+    }
+   .col-md-2 {
+       padding: 2px; 
+       font-size: 22px;
+    }
+   .col-md-3 {
+       color: grey; 
+       padding-bottom: 15px;
+    }
+   /* clear float after the columns */
+    .row:after {
+       content: "";
+       display: table;
+       clear: both;
+    }
+    .footer {
+       overflow: hidden;
+       height: 400px;
+       background: #f9f9f9;
+       position: relative;
+       margin-left: -8px;
+       margin-right: -8px;
+       margin-top: 20px;
+    }
