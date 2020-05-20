@@ -60,16 +60,30 @@ body {
       animation-name: fade;
       animation-duration: 1.5s;
     }
-    * The dots/bullets/indicators */
-    .dot {
-       cursor: pointer;
-       height: 15px;
-       width: 15px;
-       margin: 0 2px;
-       background: #ddd;
-       border-radius: 50%;
-       display: block;
-       transition: background-color 0.6s ease;
+    /* The dots/bullets/indicators */
+    .dots {
+      cursor:pointer; 
+      height:15px; 
+      width:15px; 
+      margin-right:30px; 
+      transition: background-color 0.6s ease; 
+      border-radius:50%; 
+      display:inline-block; 
+      background:#55ACEE;
+    }
+    .dot-num {
+       cursor:pointer;
+       font-size:50px; 
+       padding-bottom:5px; 
+       font-weight:bolder; 
+       height:70px; 
+       width:40px; 
+       margin-right:30px;
+       transition:color 0.6s ease; 
+       display:inline-block; 
+       color:#55ACEE; 
+       text-align:center; 
+       background:#f7f7f7;
     }
     .col-md-10 {
        float: left;
@@ -104,3 +118,92 @@ body {
        margin-right: -8px;
        margin-top: 20px;
     }
+    .col-1 {
+      height:208px; 
+      overflow:hidden; 
+      float:left; 
+      width:50%; 
+      background:#55ACEE;
+      color:white;
+   }
+   .col-2 {
+      height: 40px; 
+      overflow: auto; 
+      width: 100%; 
+      padding-top: 10px; 
+      font-size: 24px; 
+      text-align: center; 
+      color: white; 
+      background: #55ACEE;
+   }
+   .col-3 {
+      margin-top:30px;
+      margin-left:10%; 
+      color:white; 
+      background:black; 
+      width:50%;
+   }
+   .col-4 {
+     overflow: hidden;
+     height:110px;
+   }
+    #feeds {
+      font-size:24px; 
+      text-decoration:none; 
+      color:white; 
+      padding:10px 10px 5px; 
+      background:#55ACEE
+    }
+    @media only screen and (max-width: 768px) {
+      .slideshow-container {
+         height: auto;
+      }
+      .search {
+         margin-left: 5px;
+         width: auto;
+      }
+      .img {
+         margin-left: auto;
+      }
+      .dot-num {
+         margin-right: auto;
+      }
+      .dots {
+         margin-right: auto;
+      }
+      #feeds {
+         padding-top: 0px;
+      }
+     .col-1 {
+        height: auto;
+        font-size: 12px;
+     }
+     .col-2 {
+        padding-top: 2px;
+     }
+     .col-2 a { 
+        height: auto;
+        font-size: 12px;
+     }
+     .col-3 {
+        height: auto;
+        font-size: 12px;
+     }
+     .col-4 {
+        overflow:hidden; 
+        height:auto;
+     }
+     .dot-num {
+        font-size: 25px;
+        margin-right: 5px;
+     }
+     .home-content h1 {
+        font-size: medium;
+     }
+     .img {
+        height: auto;
+     }
+     .slideshow-container {
+        height: auto;
+     }
+   }
